@@ -1,0 +1,67 @@
+body {
+  background: #fcccf0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.badass_Title {
+  display:flex;
+  justify-content: center;
+  color: blue;
+}
+
+.bodak {
+  color:yellow;
+}
+
+p {
+  width: 700px;
+  border: 1px solid #d1d1d1;
+  border-radius: 9px;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.lyrics {
+  justify-content: center;
+  background-color: red;
+  height:30px;
+  border-radius: 9px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.topnav {
+    background-color: #ad0000;
+    overflow: hidden;
+    margin: -8px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ff6100;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #fcccf0;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ff6100;
+    color: white;
+}
